@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: lightcoral;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    background-color: lightblue;
+    min-height: 80vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button {
+    background-color: lightseagreen;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px; /* Reduced from 50px */
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+textarea, input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-family: monospace;
+}
+
+.input-controls {
+    text-align: left;
+    margin: 10px 0;
+}
+
+h3 {
+    margin-top: 15px;
+}
